@@ -1,0 +1,27 @@
+{
+  "name": "smart-fetch-topicos-26564-martinez-morales",
+  "version": "1.0.0",
+  "description": "Proyecto académico de Tópicos Especiales de Programación (NRC 26564) consistente en realizar una versión \"repotenciada\" de Fetch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales/issues"
+  },
+  "homepage": "https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^7.0.2"
+  }
+}
