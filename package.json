@@ -4,7 +4,8 @@
   "description": "Proyecto académico de Tópicos Especiales de Programación (NRC 26564) consistente en realizar una versión \"repotenciada\" de Fetch.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,9 @@
   },
   "homepage": "https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales#readme",
   "devDependencies": {
-    "@types/jest": "^30.0.0",
-    "jest": "^30.4.2",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
     "ts-jest": "^29.4.11",
-    "typescript": "^7.0.2"
+    "typescript": "^5.3.3"
   }
 }
