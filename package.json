@@ -1,0 +1,41 @@
+{
+    "name": "smart-fetch-topicos-26564-martinez-morales",
+    "version": "1.0.0",
+    "description": "Wrapper avanzado sobre fetch sin dependencias externas.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json",
+        "typecheck": "tsc --noEmit",
+        "test": "jest --coverage",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales.git"
+    },
+    "keywords": [
+        "fetch",
+        "http",
+        "client",
+        "retry",
+        "timeout",
+        "typescript"
+    ],
+    "author": "Martínez & Morales",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales/issues"
+    },
+    "homepage": "https://github.com/lsmorales/smart-fetch-topicos-26564-martinez-morales#readme",
+    "type": "commonjs",
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.4.11",
+        "typescript": "^5.3.3"
+    }
+}
